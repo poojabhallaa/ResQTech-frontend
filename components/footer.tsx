@@ -69,17 +69,13 @@ export default function Footer() {
         <div className="space-y-4">
           <h3 className="font-bold text-lg">Contact Us</h3>
           <div className="space-y-3">
-            <div className="flex items-start space-x-3">
-              <MapPin className="h-5 w-5 text-[#669BBC] mt-0.5" />
-              <span className="text-sm text-gray-300">123 Emergency Lane, Tech City, TC 10101</span>
-            </div>
             <div className="flex items-center space-x-3">
               <Phone className="h-5 w-5 text-[#669BBC]" />
-              <span className="text-sm text-gray-300">+1 (555) 911-RESQ</span>
+              <span className="text-sm text-gray-300">+91 9266742598</span>
             </div>
             <div className="flex items-center space-x-3">
               <Mail className="h-5 w-5 text-[#669BBC]" />
-              <span className="text-sm text-gray-300">info@resq-tech.com</span>
+              <span className="text-sm text-gray-300">poojabhalla122@gmail.com</span>
             </div>
           </div>
         </div>
