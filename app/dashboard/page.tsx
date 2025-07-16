@@ -241,8 +241,13 @@ export default function DashboardPage() {
                   <CardTitle>Deployment Status</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="h-[200px]">
-                    <PieChart
+                  <div className="h-[250px]">
+                    <Image
+                      src="/pie_chart.jpg"
+                      alt="Incident Chart"
+                      width={200}
+                      height={200}
+                      className="object-contain"
                     />
                   </div>
                 </CardContent>
