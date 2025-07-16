@@ -203,7 +203,12 @@ export default function DashboardPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="h-[300px] w-full">
-                    <LineChart
+                    <Image
+                      src="/linegraph.jpg"
+                      alt="Incident Chart"
+                      width={500}
+                      height={300}
+                      className="object-contain"
                     />
                   </div>
                 </CardContent>
@@ -215,8 +220,13 @@ export default function DashboardPage() {
                   <CardTitle>Resource Allocation</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="h-[300px]">
-                    <BarChart
+                  <div className="h-[518px]">
+                     <Image
+                      src="/res_alloc.png"
+                      alt="Incident Chart"
+                      width={500}
+                      height={300}
+                      className="object-contain"
                     />
                   </div>
                 </CardContent>
